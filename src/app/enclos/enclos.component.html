@@ -1,0 +1,21 @@
+<div class="poule-container">
+  <div [class]="pouleSelected == 0 ? 'poule poule-selected' : 'poule'" (click)="onPouleClick(0)">
+    <img src="assets/poule.png"/>
+    <span>Babette</span>
+  </div>
+
+  <div [class]="pouleSelected == 1 ? 'poule poule-selected' : 'poule'" (click)="onPouleClick(1)">
+    <img src="assets/poule.png"/>
+    <span>Bernadette</span>
+  </div>
+
+  <div [class]="pouleSelected == 2 ? 'poule poule-selected' : 'poule'" (click)="onPouleClick(2)">
+    <img src="assets/poule.png"/>
+    <span>Claudette</span>
+  </div>
+
+  <div [class]="pouleSelected == 3 ? 'poule poule-selected' : 'poule'" (click)="onPouleClick(3)">
+    <img src="assets/poule.png"/>
+    <span>Ginette</span>
+  </div>
+</div>
